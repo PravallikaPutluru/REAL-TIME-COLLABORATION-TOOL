@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Real-Time Collaboration Tool</title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            background: #f4f4f4;
+        }
+        textarea {
+            width: 80%;
+            height: 300px;
+            margin-top: 20px;
+            font-size: 18px;
+            padding: 10px;
+        }
+        h1 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+<h1>📝 Real-Time Collaborative Editor</h1>
+
+<textarea id="editor" placeholder="Start typing..."></textarea>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
